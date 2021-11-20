@@ -1,0 +1,16 @@
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\KurinayaNozhka.exe
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\KurinayaNozhka.deps.json
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\KurinayaNozhka.runtimeconfig.json
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\KurinayaNozhka.runtimeconfig.dev.json
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\KurinayaNozhka.dll
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\ref\KurinayaNozhka.dll
+E:\Documents\p\C#\git\edible_stuff\bin\Debug\net5.0\KurinayaNozhka.pdb
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.csproj.AssemblyReference.cache
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.AssemblyInfoInputs.cache
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.AssemblyInfo.cs
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.csproj.CoreCompileInputs.cache
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.dll
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\ref\KurinayaNozhka.dll
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.pdb
+E:\Documents\p\C#\git\edible_stuff\obj\Debug\net5.0\KurinayaNozhka.genruntimeconfig.cache

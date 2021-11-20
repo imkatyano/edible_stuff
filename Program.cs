@@ -14,7 +14,7 @@ namespace Pauchenochek
             KurinayaNozhka Pigeon = new KurinayaNozhka("unfried", 1);
             KurinayaNozhka DuckDuckGo = new KurinayaNozhka("unfried", 1, "sad");
             Chicken.Being_eaten();
-            DuckDuckGo.Being_eaten();
+            DuckDuckGo.Is_going_to_be_eaten();
             Pigeon.Being_broken();
             //Console.ReadKey(); 
         }
@@ -55,6 +55,15 @@ namespace Pauchenochek
             {
                 Console.WriteLine(type + " жмяк");
             }
+            public void Is_going_to_be_eaten()
+            {
+                Console.WriteLine(type + " скоро будет");
+            }
+
+
+
+
+           
         }
     }
 }
