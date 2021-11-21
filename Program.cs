@@ -52,6 +52,7 @@ namespace Pauchenochek
                 Console.WriteLine(type + " хрум-хрум");
             }
             public void Being_broken()
+                //кек
             {
                 Console.WriteLine(type + " жмяк");
             }
