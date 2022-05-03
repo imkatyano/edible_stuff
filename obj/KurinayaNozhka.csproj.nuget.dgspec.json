@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documents\\p\\C#\\git\\edible_stuff\\KurinayaNozhka.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\edible_stuff\\KurinayaNozhka.csproj": {}
   },
   "projects": {
-    "E:\\Documents\\p\\C#\\git\\edible_stuff\\KurinayaNozhka.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\edible_stuff\\KurinayaNozhka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\p\\C#\\git\\edible_stuff\\KurinayaNozhka.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\edible_stuff\\KurinayaNozhka.csproj",
         "projectName": "KurinayaNozhka",
-        "projectPath": "E:\\Documents\\p\\C#\\git\\edible_stuff\\KurinayaNozhka.csproj",
-        "packagesPath": "C:\\Users\\Tyusha\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\p\\C#\\git\\edible_stuff\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\edible_stuff\\KurinayaNozhka.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\edible_stuff\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Visual Studio\\SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Tyusha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

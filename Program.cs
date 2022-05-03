@@ -6,25 +6,30 @@ using System.Threading.Tasks;
 
 namespace Pauchenochek
 {
-    class Program
+    class Program               // создала класс Program, в котором есть метод и класс (подкласс) - ✔
     {
-        static void Main(string[] args)
+        static void Main(string[] args)     // метод Main класса Program - ✔
         {
-            KurinayaNozhka Chicken = new KurinayaNozhka("fried");
+            KurinayaNozhka Chicken = new KurinayaNozhka("fried");   // объект Chicken = объект класса KurinayaNozhka - ✔
             KurinayaNozhka Pigeon = new KurinayaNozhka("unfried", 1);
             KurinayaNozhka DuckDuckGo = new KurinayaNozhka("unfried", 1, "sad");
-            Chicken.Being_eaten();
+            Chicken.Being_eaten();          // вызов метода Being_eaten() для объекта Chicken - ✔
             DuckDuckGo.Is_going_to_be_eaten();
             Pigeon.Being_broken();
-            //Console.ReadKey(); 
+            //Console.ReadKey();                  // в интернете написано, что метод используется, чтобы консольное окно сразу не исчезло после запуска программы - ✔
         }
 
-        public class KurinayaNozhka
+        public class KurinayaNozhka          // класс KurinayaNozhka внутри класса Program - ✔
         {
+            string type;              // объявление переменных всех объектов этого класса - ✔
+            int age;                  //Пропиши модификаторы доступа!!!
+            string mood;
 
-            public KurinayaNozhka(string y)
+            public KurinayaNozhka(string y)    //  конструктор класса KurinayaNozhka (который может и не использоваться)
+                                               //  + указание, что он идентифицируется только тем, что в нём переменная y 
             {
-                this.type = y;
+                this.type = y;                 //  ???  если в объявлении объекта класса есть инфа про то, что он идентифицируется только
+                                               //  по налицию в нём единственной переменной - y - то во такое создано, а что это хз!!!!!!!
             }
 
 
@@ -42,23 +47,18 @@ namespace Pauchenochek
                 this.mood = a;
             }
 
-
-            string type;
-            int age;
-            string mood;
-
-            public void Being_eaten()
+            public void Being_eaten() // объявление функции Being_eaten, которая выводит на консоль переменную type, указанную в объявлении объекта класса, и значение в " " -  ✔
             {
-                Console.WriteLine(type + " хрум-хрум");
+                Console.WriteLine(type + ", хрум-хрум");
             }
             public void Being_broken()
-                //кек
+            //кек - ✔
             {
-                Console.WriteLine(type + " жмяк");
+                Console.WriteLine(type + ", " + age + ", жмяк");
             }
-            public void Is_going_to_be_eaten()
+            public void Is_going_to_be_eaten() 
             {
-                Console.WriteLine(type + " скоро будет");
+                Console.WriteLine(type + ", " + age + ", " + mood + ", скоро будет");
             }
 
 
@@ -68,3 +68,5 @@ namespace Pauchenochek
         }
     }
 }
+
+// добавила в две последние функции вывод не только string переменной - ✔
